@@ -2,7 +2,7 @@
 
 Compile with : javac GuessingGame.java
 
-Run with: java GuessingGame.java
+Run with: java GuessingGame
 
 This is a simple guessing game with four levels.
 
