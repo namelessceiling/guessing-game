@@ -7,14 +7,12 @@ public class Game {
     private int numGames;
     private ArrayList<Guess> listOfGames;
     private boolean isCorrect;
-    private boolean loop;
     
     public Game(Scanner scanner) {
     	this.scanner = scanner;
     	this.numGames = 1;
     	this.listOfGames = new ArrayList<>();
     	this.isCorrect = false;
-    	loop = true;
     }
     
     public void levelNumber(int level) {
