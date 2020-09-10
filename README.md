@@ -1,6 +1,6 @@
 # guessing-game
 
-Compile with : javac GuessingGame.java
+Compile with : javac GuessingGame.java Guess.java Game.java
 
 Run with: java GuessingGame
 
@@ -12,8 +12,6 @@ The player guesses a number and is told whether the number is too high or too lo
 
 This continues until the correct number is guessed.
 
-Once the player wins, they may play it again within the same level.
+Once the player wins, they may play it again within the same level or change the difficulty setting
 
-Results of how many tries it took to win in each game are printed after the player chooses to quit.
-
-TODO: Option to change levels when finished with a game, keep track of repeated guesses, ...
+Results of how many tries it took to win in each game are printed after the player chooses to quit which is done by typing anything other than "yes"
